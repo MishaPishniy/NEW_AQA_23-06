@@ -1,2 +1,3 @@
-let a = 2;
-if (a < 3) console.log("a");
+import chalk from 'chalk';
+
+console.log(chalk.blue('Hello world!'));
