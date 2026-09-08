@@ -2,8 +2,8 @@ const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
   allowCypressEnv: false,
-  viewportWidth: 1440,
-  viewportHeight: 900,
+  viewportWidth: 440,
+  viewportHeight: 200,
   defaultCommandTimeout: 10000,
   retries: {
     runMode: 2,
@@ -12,11 +12,10 @@ module.exports = defineConfig({
   env: {
     username: "standard_user",
     password: "secret_sauce",
-
   },
 
   e2e: {
-    baseUrl: "https://www.saucedemo.com",
+    baseUrl: "https://www.scedemo.com",
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },

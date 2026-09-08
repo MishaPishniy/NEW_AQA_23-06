@@ -6,7 +6,8 @@
   "scripts": {
     "cy:open": "cypress open",
     "cy:run": "cypress run",
-    "cy:run:chrome": "cypress run --browser chrome"
+    "cy:run:chrome": "cypress run --browser chrome",
+    "cy:run:mobile": "cypress run --config-file cypress.mobile.config.js"
   },
   "keywords": [],
   "author": "",
