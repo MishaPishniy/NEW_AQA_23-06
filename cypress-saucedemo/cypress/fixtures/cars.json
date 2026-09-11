@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "data": [
+    {
+      "id": 999999,
+      "carBrandId": 1,
+      "carModelId": 1,
+      "initialMileage": 15000,
+      "mileage": 15000,
+      "brand": "TESLA",
+      "model": "TT",
+      "logo": "audi.png",
+      "carCreatedAt": "2026-09-11T10:00:00.000Z",
+      "updatedMileageAt": "2026-09-11T10:00:00.000Z"
+    }
+  ]
+}
